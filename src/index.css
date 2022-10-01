@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1{
+  color: blue;
+  padding: 100px;
+}
+.Name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1:hover{
+  color: brown;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Adresse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+body{
+  background-image: url(./hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+}
+.App-image{
+  border-radius: 50%;
 }

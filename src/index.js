@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Fullname from './Component/Profil/FullName';
+
+import Adress from './Component/Profil/Address';
+import ProfilePhoto from './Component/Profil/ProfilePhoto';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Fullname />
+    <Adress />
+    <ProfilePhoto />
+    
+    
   </React.StrictMode>
 );
 
